@@ -1,0 +1,159 @@
+* {
+  background-color: #8193B5;
+}
+.title {
+  font-family: "Times New Roman";
+  font-size: 60px;
+  text-align: center;
+}
+.page2title {
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 75px;
+}
+
+.intro {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  font-size: 35px;
+}
+
+.holiday {
+   width: 400px;
+   margin: 30px;
+}
+
+.carsale {
+  width: 400px;
+  height: 290px;
+  margin: 30px;
+}
+
+.apr {
+  width: 400px;
+  height: 290px;
+  margin: 30px;
+}
+
+.headers {
+  font-family: "Times New Roman";
+  font-size: 30px;
+  word-spacing: 275px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  padding: 0 155px;
+}
+
+.fusion {
+  width: 400px;
+  padding: 0 30px;
+}
+
+.civic {
+  width: 400px;
+  padding: 0 30px;
+}
+
+.camry {
+  width: 400px;
+  padding: 0 30px;
+}
+
+.return1 {
+  text-align: center;
+}
+
+.return2 {
+    text-align: center;
+}
+
+.fusiontitle {
+  font-size: 60px;
+  text-align: center;
+}
+
+.fusionimage {
+  display: block;
+  margin: auto;
+}
+
+.fusionprice {
+  text-align: center;
+  font-size: 40px;
+}
+
+.namebox {
+  font-size: 20px;
+}
+
+.adressbox {
+  font-size: 20px;
+}
+
+.numberbox{
+  font-size: 20px;
+}
+
+.hondatitle {
+  font-size: 60px;
+  text-align: center;
+}
+
+.hondaimage {
+  display: block;
+  margin: auto;
+}
+
+.hondaprice {
+  text-align: center;
+  font-size: 40px;
+}
+
+.camrytitle {
+  font-size: 60px;
+  text-align: center;
+}
+
+.camryimage {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+.camryprice {
+  text-align: center;
+  font-size: 40px;
+}
+
+.fbuttons {
+  text-align: center;
+}
+
+.hbuttons {
+  text-align: center;
+}
+
+.cbuttons {
+  text-align: center;
+}
