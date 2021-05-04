@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Silly Face Generator</h1>
+    <div class="border">
+      <img class="face" src="images/face.png" alt="Blank Face" />
+      <img class="eyesimage" id="eyes" src="images/eyes1.png" alt="Eyes" />
+      <img class="noseimage" id="nose" src="images/nose1.png" alt="Nose" />
+      <img class="mouthimage" id="mouth" src="images/mouth1.png" alt="Mouth" />
+      <img class="hairimage" id="hair" src="images/hair1.png" alt="Hair" />
+    </div>
+    <div class="eyesbuttons">
+      <button onclick="eyesbutton1()">Eyes 1</button>
+      <button onclick="eyesbutton2()">Eyes 2</button>
+    </div>
+    <div class="nosebuttons">
+      <button onclick="nosebutton1()">Nose 1</button>
+      <button onclick="nosebutton2()">Nose 2</button>
+    </div>
+    <div class="mouthbuttons">
+      <button onclick="mouthbutton1()">Mouth 1</button>
+      <button onclick="mouthbutton2()">Mouth 2</button>
+    </div>
+    <div class="hairbuttons">
+      <button onclick="hairbutton1()">Hair 1</button>
+      <button onclick="hairbutton2()">Hair 2</button>
+    </div>
+    <script>
+      function eyesbutton1() {
+        document.getElementById("eyes").src = "images/eyes1.png";
+      }
+      function eyesbutton2() {
+        document.getElementById("eyes").src = "images/eyes2.png";
+      }
+      function nosebutton1() {
+        document.getElementById("nose").src = "images/nose1.png";
+      }
+      function nosebutton2() {
+        document.getElementById("nose").src = "images/nose2.png";
+      }
+      function mouthbutton1() {
+        document.getElementById("mouth").src = "images/mouth1.png";
+      }
+      function mouthbutton2() {
+        document.getElementById("mouth").src = "images/mouth2.png";
+      }
+      function hairbutton1() {
+        document.getElementById("hair").src = "images/hair1.png";
+      }
+      function hairbutton2() {
+        document.getElementById("hair").src = "images/hair2.png";
+      }
+    </script>
+  </body>
+</html>

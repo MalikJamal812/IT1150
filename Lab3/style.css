@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(5, 71, 170, 0.555);
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: rgb(36, 236, 18);
+}
+
+.border {
+  width: 45%;
+  height: 650px;
+  margin: auto;
+  display: block;
+  border: solid rgb(36, 236, 18) 8px;
+  background-image: linear-gradient();
+  border-radius: 8px;
+}
+
+.eyesimage {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 450px;
+  right: 410px;
+}
+
+.face {
+  position: absolute;
+  height: 650px;
+  width: 447px;
+}
+
+.noseimage {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 312px;
+  right: 410px;
+}
+
+.mouthimage {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 175px;
+  right: 410px;
+}
+
+.hairimage {
+  position: absolute;
+  height: 135px;
+  width: 200px;
+  bottom: 575px;
+  right: 382px;
+}
+
+.nosebuttons {
+  background-color: rgb(36, 236, 18);
+  color: rgb(0, 0, 0);
+  border: solid rgb(0, 0, 0) 6px;
+  font-size: 40px;
+  padding: 10px;
+  margin: 12px;
+  display: inline-block;
+  border-radius: 8px;
+  -webkit-column-break-after: auto;
+}
+
+.mouthbuttons {
+  background-color: rgb(36, 236, 18);
+  color: rgb(0, 0, 0);
+  border: solid rgb(0, 0, 0) 6px;
+  font-size: 40px;
+  padding: 10px;
+  margin: 12px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.eyesbuttons {
+  background-color: rgb(36, 236, 18);
+  color: rgb(0, 0, 0);
+  border: solid rgb(0, 0, 0) 6px;
+  font-size: 40px;
+  padding: 10px;
+  margin: 12px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.hairbuttons {
+  background-color: rgb(36, 236, 18);
+  color: rgb(0, 0, 0);
+  border: solid rgb(0, 0, 0) 6px;
+  font-size: 40px;
+  padding: 10px;
+  margin: 12px;
+  display: inline-block;
+  border-radius: 8px;
+}
