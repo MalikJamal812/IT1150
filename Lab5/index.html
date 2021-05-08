@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Important Internet Organizations</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <body>
+        <header class="intro">
+            Important Internet Organizations
+        </header>
+    </body>
+  
+  <!--IETF-->
+
+  <script>
+      $(document).ready(function () {
+        $("#hide1").click(function () {
+          $(".IETF").hide();
+        });
+        $("#show1").click(function () {
+          $(".IETF").show();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header class="IETF">
+      <h1>Internet Engineering Task Force</h1>
+    </header>
+    <div class="IETF">
+      <h1>The Internet Engineering Task Force (IETF) is the premier Internet standards body, developing open standards through open processes.</h1>
+      <p class="description">The goal of the IETF is to make the Internet work better by producing high quality, relevant technical documents that influence the way people design, use, and manage the Internet.</p>
+      <p class="description">The technical work of the IETF is done in its working groups, which are organized by topic into several areas (e.g., routing, transport, security, etc.).</p>
+    <a class="link" href="https://www.ietf.org/about/">Read more about it here!</a>
+    </div>
+    <button id="show1">Show IETF</button>
+    <button id="hide1">Hide IETF</button>
+  </body>
+
+<!--W3C-->
+
+  <script>
+    $(document).ready(function () {
+      $("#hide2").click(function () {
+        $(".WWW").hide();
+      });
+      $("#show2").click(function () {
+        $(".WWW").show();
+      });
+    });
+  </script>
+</head>
+<body>
+  <header class="WWW">
+    <h1>World Wide Web Consortium</h1>
+  </header>
+  <div class="WWW">
+    <h1>World Wide Web Consortium</h1>
+    <p class="description">The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards.</p>
+    <p class="description">The W3C mission is to lead the World Wide Web to its full potential by developing protocols and guidelines that ensure the long-term growth of the Web.</p>
+  <a class="link" href="https://www.w3.org/Consortium/">Read more about it here!</a>
+</div>
+  <button id="show2">Show W3C</button>
+  <button id="hide2">Hide W3C</button>
+</body>
+
+<!--ICANN-->
+
+<script>
+    $(document).ready(function () {
+      $("#hide3").click(function () {
+        $(".ICANN").hide();
+      });
+      $("#show3").click(function () {
+        $(".ICANN").show();
+      });
+    });
+  </script>
+</head>
+<body>
+  <header class="ICANN">
+    <h1>Internet Corporation for Assigned Names and Numbers</h1>
+  </header>
+  <div class="ICANN">
+    <h1>Internet Corporation for Assigned Names and Numbers</h1>
+    <p class="description">The Internet Corporation for Assigned Names and Numbers is an American multistakeholder group and nonprofit organization responsible for coordinating the maintenance and procedures of several databases related to the namespaces and numerical spaces of the Internet, ensuring the network's stable and secure operation.</p>
+    <p class="description">ICANN's LAC team recently lauched a DNS security social media campaign.</p>
+  <a class="link" href="https://www.icann.org/">Read more about it here!</a>
+</div>
+  <button id="show3">Show ICANN</button>
+  <button id="hide3">Hide ICANN</button>
+</body>
+
+
+</html>
